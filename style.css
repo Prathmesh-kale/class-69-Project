@@ -1,0 +1,140 @@
+body {
+    background-color: darkorange;
+    text-align: center;
+}
+
+#imggg {
+    width: 210px;
+    padding-top: 75px;
+}
+
+#mycarousel {
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+#imgs {
+    padding-top: 95px;
+    border-radius: 800px;
+}
+
+#hu {
+    font-size: 40px;
+    color: aqua;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#principal {
+    height: 500px;
+
+}
+
+#p1 {
+    font-size: 40px;
+    color: aqua;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#p2 {
+    font-size: 40px;
+    color: lightgoldenrodyellow;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    font-size: 35px;
+    word-spacing: 20px;
+}
+
+.container {
+    background-color: chartreuse;
+}
+
+.item active {
+    background-color: darkorange;
+}
+
+.item {
+    background-color: darkorange;
+}
+
+.travel_mainDiv {
+    background-color: aqua;
+}
+
+#heading {
+    font-size: 30px;
+}
+
+#paragraph {
+    font-size: 20px;
+}
+
+#heading1 {
+    font-size: 30px;
+}
+
+#paragraph1 {
+    font-size: 20px;
+}
+
+#heading2 {
+    font-size: 30px;
+}
+
+#paragraph2 {
+    font-size: 20px;
+}
+
+#star1 {
+    font-size: 15px;
+    color: yellow;
+}
+
+#new {
+    font-size: 25px;
+}
+
+#paragraphe {
+    font-size: 32px;
+    color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 70%;
+    background-color: darkgoldenrod;
+}
+
+#nikal {
+    font-size: 40px;
+    color: aqua;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#mad {
+    font-size: 40px;
+    color: aqua;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-style: italic;
+}

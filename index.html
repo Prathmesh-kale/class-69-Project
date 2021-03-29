@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>St. Mary's English School</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                <button class="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#slidinggallery">School</a></li>
+                    <li><a href="#campuslife">Campus-Life</a></li>
+                    <li><a href="#principal">Principal</a></li>
+                    <li><a href="#achievement">Achievement</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </nav>
+
+
+
+    <section id="slidinggallery">
+        <h1 id="hu">School Photos</h1>
+
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <center>
+                        <img id="imggg" src="https://lh3.googleusercontent.com/proxy/zuo7RWtyI18nRcCm9W665ElCnFMo7o5q6EEnNtZKJSg0W024OPJvF1RcsKtOofTHNzkbHj2PdnLpNvDfuIxu">
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img id="imgs" src="data:image/jpeg;base64,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">
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </section>
+
+
+
+
+
+    <div class="container">
+        <div class="page-header" id="campuslife">
+            <h2 id="mad" class="text-capitalize">Campus Life</h2>
+        </div>
+
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://www.mcgs.ac.in/wp-content/uploads/2017/07/temple.jpg">
+                <h4 class="text-capitalize"><kbd>School-Church</kbd></h4>
+                <hr>
+                <h5 id="heading" class="text-success text-left text-capitalize">Was Established in 2018</h5>
+                <p id="paragraph" class="text-muted text-left">The school created the temple in the school for students to pray the god when enter in school for a good day. The principal gave the idea to build a temple in school this was happen for the fist time in the city and everyone pray the god sincerely when they enter school and also pray after assembly.</p>
+            </div>
+        </center>
+
+
+        <br><br>
+
+
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://images.theconversation.com/files/266481/original/file-20190329-139374-1z0c9i3.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip">
+                <h4 class="text-capitalize"><kbd>School-library</kbd></h4>
+                <hr>
+                <h5 id="heading1" class="text-success text-left text-capitalize">Was Established in 2017</h5>
+                <p id="paragraph1" class="text-muted text-left">Due to children's of every clas were finding difficult to read and pronounce. The school's teacher and principal were sad and finding a way to solve it then they find "LIBRARY" and created a library for std- 1st to 10th on the 3rd floor and after one year they announce it as a subject and you will be glad to know that after 3 years the school's 1st standard's kid can read any language and the parents and teachers are very happy by it not only this the school's 1st standard kid won the "National junior reading compitition".</p>
+            </div>
+        </center>
+
+
+        <br><br>
+
+        <center>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://scontent.fnag1-2.fna.fbcdn.net/v/t1.0-9/67298140_2405670292833579_8297176117727461376_o.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=jSgE48vEKm0AX_XDLnM&_nc_ht=scontent.fnag1-2.fna&oh=eb2baf8d8b398f9a49dca1b7170a2984&oe=60873870">
+                <h4 class="text-capitalize"><kbd>Stage</kbd></h4>
+                <hr>
+                <h5 id="heading2" class="text-success text-left text-capitalize">Was Established in 2015</h5>
+                <p id="paragraph2" class="text-muted text-left">On special day's to celebrate or art or dance there was nothing for to representing for kid's so by that thought principal created a stage straight of school to perform.</p>
+            </div>
+        </center>
+    </div>
+
+    <div class="page-header" id="achievement">
+        <h2 id="nikal" class="text-capitalize">Achievement</h2>
+    </div>
+
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_ranking">
+        <span class="glyphicon glyphicon-film"></span> School Rankings <i class="fa fa-sort-desc"></i>
+    </div>
+
+
+    <div id="school_ranking" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <img src="https://cathedral-school.com/wp-content/uploads/2017/01/EducationWorldd-School-Ranking-2020-21.jpg" class="img-responsive img-thumbnail">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 id="new" class="text-success text-left text-capitalize">Being the top school-
+                <span id="star1" class="glyphicon glyphicon-star"></span>
+                <span id="star1" class="glyphicon glyphicon-star"></span>
+                <span id="star1" class="glyphicon glyphicon-star"></span>
+                <span id="star1" class="glyphicon glyphicon-star"></span>
+                <span id="star1" class="glyphicon glyphicon-star"></span>
+            </h5>
+            <p id="paragraphe" class="text-muted text-left">"The best school i will say because the teaching and overall all staffs are polite and they listen to carefully the principal is also very humble and polite. Actuall i was in search for a school like this only since many years but finally finded though its not my school but im thinking to take admission in this school next year and i will also suggest you to take admissions to like this school will not there in any part of world. Ya and main thing that this is situated in Mumbai"</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <section id="principal">
+
+        <p id="p1">School Principal:</p>
+        <img id="principal" src="https://scontent.fnag1-2.fna.fbcdn.net/v/t1.0-9/65288482_2324717587595517_3992773173715140608_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=973b4a&_nc_ohc=D9Y-_CuYGrAAX85zUde&_nc_ht=scontent.fnag1-2.fna&oh=5dd3fa951a08de129cd34524f81ad612&oe=6084D75E">
+        <p id="p2">Sister Shiny</p>
+    </section>
+</body>
+
+</html>
